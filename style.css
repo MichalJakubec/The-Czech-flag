@@ -1,0 +1,45 @@
+/* CSS Document */
+body{
+            background: #000000;
+        }
+        
+        h1{
+            color: #00FF00;
+        }
+           
+        #triangle-right {
+                width: 0;
+                height: 0;
+                border-top: 50px solid transparent;
+                border-left: 100px solid #0000FF;
+                border-bottom: 50px solid transparent;
+                }
+            
+        #bottom_part {
+                height: 0;
+                width: 100px;
+                border-bottom:50px solid #FF0000;
+                border-left: 100px solid transparent;
+                border-right: 0px solid transparent;
+                border-top:0px solid transparent;
+                transform: translate(-100px, 0px);
+                -webkit-transform: translate(-100px, 0px);
+                }
+                
+        #upper_part {
+                height: 0px;
+                width: 100px;
+                border-style: solid;
+                border-width: 100px 0px 50px 0px;
+                border-color: transparent transparent #FFFFFF transparent;
+                transform: translate(100px, -100px);
+                -webkit-transform: translate(0px, -150px);
+        }
+        #upper_part_two {
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 50px 50px 0 100px;
+                border-color: #FFFFFF transparent transparent transparent;
+                -webkit-transform: translate(-100px, 0px);
+}  
